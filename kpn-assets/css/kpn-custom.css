@@ -1,0 +1,27 @@
+.offerblink{
+    color: green !important;
+    text-transform: uppercase !important;
+    font-size: large !important;
+    text-align: center !important;
+    width: 100px;
+}
+.offerhead{
+    color: #ff9900 !important;
+    font-size: large;
+}
+.offerheadloc{
+    color: green !important;
+    font-size: x-large;
+}
+
+@media screen and (max-width:425px) {
+    .offerblink{
+        font-size: initial !important;
+    }
+}
+
+@media screen and (min-width:992px){
+    .offerblink{
+        padding-left: unset !important;
+    }
+}

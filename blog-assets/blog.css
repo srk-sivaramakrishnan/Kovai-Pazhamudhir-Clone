@@ -1,0 +1,17 @@
+.single-blog-post .blog-details-.read-more i::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+    background-color: #006939;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.single-blog-post .read-more i {
+    top: -1px;
+    padding-left: 14px;
+    line-height: 17px;
+}
